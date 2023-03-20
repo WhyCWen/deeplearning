@@ -1,0 +1,9 @@
+# created by virtualenv automatically
+/venv/
+deeplearning/datasets/
+deeplearning/images/datasets/
+
+__pycache__
+deeplearning/1neuralNetworks/test.h5
+deeplearning/1neuralNetworks/train_catvnoncat.h5
+deeplearning/images/
