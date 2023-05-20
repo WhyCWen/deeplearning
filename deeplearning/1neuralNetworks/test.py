@@ -15,6 +15,14 @@ print(pixels)
 quality = 50
 # compressed_img = img.save('example_compressed.jpg', optimize=True, quality=quality)
 
-aaa = [0,1,2,3,4,5,6,7,8]
+# aaa = [0,1,2,3,4,5,6,7,8]
 
-print(aaa[:])
+# print(aaa[:])
+A = np.zeros((2, 4))
+A1 = np.zeros((4, 2))
+A2 = np.dot(A,A1)
+print(A)
+print("+++++")
+print(A1)
+print("A2")
+print(A2)

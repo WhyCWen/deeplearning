@@ -113,12 +113,12 @@ def read_datasets(dataset_name=DATASETS_NAME):
         noncat_train_set = group[NON_CAT_TRAIN_GROUP][DATAFILE_NAMES[NON_CAT_TRAIN_GROUP]][:]
         cat_train_set = group[CAT_TRAIN_GROUP][DATAFILE_NAMES[CAT_TRAIN_GROUP]][:]
         cat_test_set = group[CAT_TEST_GROUP][DATAFILE_NAMES[CAT_TEST_GROUP]][:]
-
         # print("noncat_test_set shape", noncat_test_set.shape)
         # print("noncat_train_set shape", noncat_train_set.shape)
         # print("cat_train_set shape", cat_train_set.shape)
         # print("cat_test_set shape:", cat_test_set.shape)
         return cat_train_set, cat_test_set, noncat_train_set, noncat_test_set
+
 
 if __name__ == '__main__':
     # pwhArray1 = get_min()

@@ -17,6 +17,8 @@ deep learning :
     • numpy has efficient built-in functions
     • broadcasting is extremely useful
 """
+
+
 def basic_sigmoid(x):
     """
     实现一个基本的 sigmoid S 曲线函数
@@ -125,10 +127,10 @@ def normalizeRows(x):
     return x
 
 
-x = np.array([
+x1 = np.array([
     [0, 3, 4],
     [1, 6, 4]])
-print(str(normalizeRows(x)))
+print(str(normalizeRows(x1)))
 
 
 # GRADED FUNCTION: softmax
@@ -151,4 +153,4 @@ def softmax(x):
     return s
 
 
-print(softmax(x))
+print(softmax(x1))
